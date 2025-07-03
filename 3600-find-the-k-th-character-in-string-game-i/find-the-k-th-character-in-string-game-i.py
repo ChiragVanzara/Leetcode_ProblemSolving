@@ -1,7 +1,6 @@
 class Solution:
     def kthCharacter(self, k: int) -> str:
         s = 'ab'
-        n = k
         for _ in range(k):
             new_s = ""
             for char in s:
